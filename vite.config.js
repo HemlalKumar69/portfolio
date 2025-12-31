@@ -4,7 +4,9 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
-  plugins: [react(),
+  base: "./",   // 🔥 THIS LINE FIXES RENDER ISSUE
+  plugins: [
+    react(),
     tailwindcss(),
   ],
 })
