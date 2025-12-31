@@ -22,7 +22,7 @@ const projects = [
         description:
             "A modern and responsive personal portfolio showcasing skills, projects, and contact information.",
         tech: ["React", "Tailwind CSS"],
-        github: "https://github.com/HemlalKumar69/personal-portfolio-website",
+        github: "https://github.com/HemlalKumar69/portfolio",
         live: "#",
     },
 ];
