@@ -38,19 +38,19 @@ const Skills = () => {
                 Skills
             </h2>
 
-            <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-10 px-6">
+            <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 px-4 md:px-6">
 
                 {/* Frontend Skills */}
-                <div className="bg-gray-800 rounded-xl p-8 border border-gray-700 hover:border-blue-500 transition">
+                <div className="bg-gray-800 rounded-xl p-6 sm:p-8 border border-gray-700 hover:border-blue-500 transition mx-auto w-full max-w-md md:max-w-none">
                     <h3 className="text-2xl font-semibold mb-6 text-center">
                         Frontend
                     </h3>
 
-                    <div className="grid grid-cols-2 gap-6">
+                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6">
                         {frontendSkills.map((skill, index) => (
                             <div
                                 key={index}
-                                className="flex items-center gap-4 bg-gray-900 p-4 rounded-lg hover:scale-105 transition"
+                                className="flex items-center justify-center sm:justify-start gap-3 sm:gap-4 bg-gray-900 p-3 sm:p-4 rounded-lg hover:scale-105 transition"
                             >
                                 <span className="text-3xl">{skill.icon}</span>
                                 <span>{skill.name}</span>
@@ -69,8 +69,7 @@ const Skills = () => {
                         {backendSkills.map((skill, index) => (
                             <div
                                 key={index}
-                                className="flex items-center gap-4 bg-gray-900 p-4 rounded-lg hover:scale-105 transition"
-                            >
+                                className="flex items-center justify-center sm:justify-start gap-3 sm:gap-4 bg-gray-900 p-3 sm:p-4 rounded-lg hover:scale-105 transition"                           >
                                 <span className="text-3xl">{skill.icon}</span>
                                 <span>{skill.name}</span>
                             </div>

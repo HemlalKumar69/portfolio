@@ -3,7 +3,7 @@ import { FaReact, FaNodeJs, FaDatabase } from "react-icons/fa";
 const About = () => {
   return (
     <section id="about" className="py-20 bg-gray-900 text-white px-6 ">
-      <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
+      <div className="max-w-6xl mx-auto grid grid-cols-1 items-center">
 
         
         <div className="text-center md:text-left flex flex-col items-center md:items-start">
@@ -50,13 +50,13 @@ const About = () => {
           </a>
         </div>
 
-        <div className="flex justify-center">
-          {/* <img
+        {/* <div className="flex justify-center">
+          <img
             src={profileImg}   
             alt="Hemlal Kumar"
             className="w-80 h-80 object-cover rounded-full border-4 border-blue-600 shadow-lg"
-          /> */}
-        </div>
+          /> 
+        </div> */}
       </div>
     </section>
   );

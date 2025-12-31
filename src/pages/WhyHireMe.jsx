@@ -13,7 +13,7 @@ const WhyHireMe = () => {
                 and why I am a good fit for your company.
             </p>
 
-            <div className="flex justify-center">
+            <div className="flex justify-center px-2">
                 <video
                     src={hireVideo}
                     controls
